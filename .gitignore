@@ -1,0 +1,10 @@
+*.gem
+*.rbc
+.bundle
+.config
+.yardoc
+Gemfile.lock
+InstalledFiles
+lib/bundler/man
+pkg
+tmp
