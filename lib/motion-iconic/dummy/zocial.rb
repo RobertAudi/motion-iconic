@@ -1,7 +1,7 @@
 module Motion
   module Iconic
     module Dummy
-      module Zocial < FAKZocial
+      class Zocial < FAKZocial
         class << self
           private
 

@@ -1,7 +1,7 @@
 module Motion
   module Iconic
     module Dummy
-      module Foundation < FAKFoundationIcons
+      class Foundation < FAKFoundationIcons
         class << self
           private
 

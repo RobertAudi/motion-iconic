@@ -1,7 +1,7 @@
 module Motion
   module Iconic
     module Dummy
-      module Ion < FAKIonIcons
+      class Ion < FAKIonIcons
         class << self
           private
 
