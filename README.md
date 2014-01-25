@@ -1,8 +1,10 @@
-# Motion::Iconic
+Motion::Iconic
+==============
 
 RubyMotion wrapper around [FontAwesomeKit](https://github.com/PrideChung/FontAwesomeKit).
 
-## Installation
+Installation
+------------
 
 Add this line to your application's Gemfile:
 
@@ -12,11 +14,36 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
+Dependencies
+------------
 
-    $ gem install motion-iconic
+Motion::Iconic depends on [FontAwesomeKit](https://github.com/PrideChung/FontAwesomeKit) as a CocoaPod. You do not need to add anything to your `Rakefile`, but you do need to run `rake pod:install`.
 
-## Contributing
+Usage
+-----
+
+```ruby
+Motion::Iconic::Icon.awesomeIcon(:codeFork, withSize:42)
+```
+
+That's quite a mouthful... So `Motion::Iconic::Icon` is also aliased to `Mic`.
+
+```ruby
+Mic.foundationIcon(:socialGithub, withSize:73)
+```
+
+Here is the full list of implemented methods:
+
+- `Mic.icon(icon, withSize:size, inCollection:collection)` &mdash; returns an `FAK*` instance.
+- `Mic.awesomeIcon(icon, withSize:size)` &mdash; returns an `FAKFontAwesome` instance.
+- `Mic.foundationIcon(icon, withSize:size)` &mdash; returns an `FAKFoundationIcons` instance.
+- `Mic.IonIcon(icon, withSize:size)` &mdash; returns an `FAKIonIcons` instance.
+- `Mic.ZocialIcon(icon, withSize:size)` &mdash; returns an `FAKZocial` instance.
+
+For information on what you can do with those objects, refer to the [FontAwesomeKit documentation](https://github.com/PrideChung/FontAwesomeKit#example-usage).
+
+Contributing
+------------
 
 1. Fork it ( http://github.com/AzizLight/motion-iconic/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
