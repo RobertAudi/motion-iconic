@@ -9,11 +9,11 @@ module Motion
       }
 
       def self.icon(icon, withSize:size, inCollection:collection)
-        unless Motion::Iconic::Constants::ICONS.has_key? collection
+        unless Motion::Iconic::Yaritousu::ICONS.has_key? collection
           raise Motion::Iconic::InvalidIconCollectionError.new collection
         end
 
-        unless Motion::Iconic::Constants::ICONS[collection].include? icon
+        unless Motion::Iconic::Yaritousu::ICONS[collection].include? icon
           raise Motion::Iconic::InvalidIconError.new icon
         end
 

@@ -1,6 +1,11 @@
 module Motion
   module Iconic
-    module Constants
+    # Apparently, that means "persist" in Japanese
+    # Source: http://www.japanesedictionary.org/search?search=persist&searchtype=english
+    # I needed to find another name of "Constants"
+    #  for compatibility issues with BubbleWrap (and
+    #  potentially other gems)
+    module Yaritousu
       ICONS = {
         awesome: [
           :glass, :music, :search, :envelopeO, :heart, :star, :starO, :user, :film, :thLarge, :th,
