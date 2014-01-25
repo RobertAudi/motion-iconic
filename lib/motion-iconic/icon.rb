@@ -39,3 +39,5 @@ module Motion
     end
   end
 end
+
+Mic = Motion::Iconic::Icon unless defined? Mic
