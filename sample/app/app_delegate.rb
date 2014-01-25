@@ -4,8 +4,6 @@ class AppDelegate
     window.rootViewController = rootViewController
     window.makeKeyAndVisible
 
-    ap Motion::Iconic::Icon.icon(:star, withSize:15, inCollection: :awesome)
-
     true
   end
 
