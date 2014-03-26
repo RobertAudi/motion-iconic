@@ -29,7 +29,6 @@ module Motion
       end
 
       def self.ionIcon(icon, withSize:size)
-        alloc.initWithIonIcon(icon, withSize:size)
         icon(icon, withSize:size, inCollection: :ion)
       end
 
