@@ -37,8 +37,8 @@ Here is the full list of implemented methods:
 - `Mic.icon(icon, withSize:size, inCollection:collection)` &mdash; returns an `FAK*` instance.
 - `Mic.awesomeIcon(icon, withSize:size)` &mdash; returns an `FAKFontAwesome` instance.
 - `Mic.foundationIcon(icon, withSize:size)` &mdash; returns an `FAKFoundationIcons` instance.
-- `Mic.IonIcon(icon, withSize:size)` &mdash; returns an `FAKIonIcons` instance.
-- `Mic.ZocialIcon(icon, withSize:size)` &mdash; returns an `FAKZocial` instance.
+- `Mic.ionIcon(icon, withSize:size)` &mdash; returns an `FAKIonIcons` instance.
+- `Mic.zocialIcon(icon, withSize:size)` &mdash; returns an `FAKZocial` instance.
 
 For information on what you can do with those objects, refer to the [FontAwesomeKit documentation](https://github.com/PrideChung/FontAwesomeKit#example-usage).
 
